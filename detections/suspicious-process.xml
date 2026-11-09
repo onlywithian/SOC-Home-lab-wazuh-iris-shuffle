@@ -1,9 +1,5 @@
 <!-- detections/suspicious-process.xml
-     Corrected from the original draft:
-     - base on the Sysmon process-creation group instead of rule 616 (verify the group name in your ruleset)
-     - Wazuh field names are lower-case: win.eventdata.image
-     - the original had two <field> checks on the same field; one regex is enough
-     Starting point only: expect noise from legitimate installers, tune before relying on it. -->
+ -->
 <group name="windows,sysmon,">
   <rule id="100200" level="8">
     <if_group>sysmon_event1</if_group>
@@ -14,3 +10,4 @@
     </mitre>
     <group>process_creation,</group>
   </rule>
+</group>
