@@ -1,10 +1,5 @@
 <!-- detections/ssh-bruteforce.xml
-     Corrected from the original draft:
-     - frequency rules correlate with if_matched_sid, not if_sid
-     - same_source_ip is only meaningful on the correlation rule
-     - single failures stay low so they do not flood IRIS (forwarding threshold is level 10)
-     Note: Wazuh already ships SSH brute-force rules (for example 5712). These are kept as a
-     learning exercise; say so in the README. -->
+ -->
 <group name="ssh,authentication_failures,">
   <rule id="100100" level="5">
     <if_sid>5716</if_sid>
