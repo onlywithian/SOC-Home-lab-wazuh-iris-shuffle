@@ -1,0 +1,14 @@
+<!-- detections/mimikatz-t1003.xml
+     Add to /var/ossec/etc/rules/local_rules.xml (or keep as a separate file in /var/ossec/etc/rules/).
+     Requires Sysmon Event ID 1 (process creation) to be collected from the agent.
+     COMPARE with the rule actually running in your lab and use your real rule ID. -->
+<group name="sysmon,mimikatz,">
+  <rule id="100002" level="15">
+    <if_group>sysmon_event1</if_group>
+    <field name="win.eventdata.originalFileName" type="pcre2">(?i)mimikatz\.exe</field>
+    <description>Mimikatz Usage Detected</description>
+    <mitre>
+      <id>T1003</id>
+    </mitre>
+  </rule>
+</group>
