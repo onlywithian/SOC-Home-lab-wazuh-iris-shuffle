@@ -1,7 +1,7 @@
 # SOC Home Lab: Wazuh + DFIR-IRIS + Shuffle
 
 ![SIEM](https://img.shields.io/badge/SIEM-Wazuh_4.7.3-005571)
-![IR](https://img.shields.io/badge/IR-DFIR--IRIS_5.2.0-blue)
+![IR](https://img.shields.io/badge/IR--IRIS_5.2.0-blue)
 ![SOAR](https://img.shields.io/badge/SOAR-Shuffle_1.2.0-orange)
 ![ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-T1003-red)
 ![License](https://img.shields.io/badge/license-MIT-green)
