@@ -55,7 +55,7 @@ open-source parts and run on modest infrastructure, so students can practise rea
 | Component | Version | Role | Runs on |
 |---|---|---|---|
 | Wazuh (manager, indexer, dashboard) | 4.7.3 | SIEM/XDR: collection, decoding, rules, alerts, Active Response | Ubuntu 22.04 VPS |
-| DFIR-IRIS | 5.2.0 | Alerts, cases, timeline, IOCs, evidence | Ubuntu 22.04 VPS |
+| IRIS | 5.2.0 | Alerts, cases, timeline, IOCs, evidence | Ubuntu 22.04 VPS |
 | Shuffle | 1.2.0 | SOAR: enrichment and response playbooks | Ubuntu 22.04 VPS |
 | Windows 10 + Sysmon + Wazuh agent | n/a | Monitored endpoint and attack target | VirtualBox VM |
 | Kali Linux (planned agent) | n/a | Attack source for multi-host scenarios | VirtualBox VM |
