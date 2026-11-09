@@ -48,7 +48,7 @@ open-source parts and run on modest infrastructure, so students can practise rea
 
 ## Architecture
 
-![Original design diagram](architecture/soc-lab-workflow.png)
+![Original design diagram](architecture/soc-lab-workflow.md)
 
 *Figure: design diagram (draw.io source in `architecture/`).*
 
