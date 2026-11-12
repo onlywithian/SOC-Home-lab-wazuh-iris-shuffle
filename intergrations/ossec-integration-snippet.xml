@@ -1,0 +1,9 @@
+<!-- Add inside <ossec_config> in /var/ossec/etc/ossec.conf on the Wazuh manager.
+     Do NOT commit your real ossec.conf: it holds the API key. -->
+<integration>
+  <name>custom-iris</name>
+  <hook_url>https://<IRIS_HOST>/alerts/add</hook_url>
+  <api_key><IRIS_API_KEY></api_key>
+  <level>10</level>
+  <alert_format>json</alert_format>
+</integration>
