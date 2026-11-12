@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-03-24T09:47:21.000+0000",
+  "id": "1711273641.123456",
+  "rule": {
+    "id": "100002",
+    "level": 15,
+    "description": "Mimikatz Usage Detected",
+    "mitre": { "id": ["T1003"], "tactic": ["Credential Access"], "technique": ["OS Credential Dumping"] }
+  },
+  "agent": { "id": "001", "name": "<AGENT_NAME>", "ip": "192.168.100.20" },
+  "data": { "win": { "eventdata": { "originalFileName": "mimikatz.exe" } } }
+}
